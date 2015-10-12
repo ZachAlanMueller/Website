@@ -1,45 +1,28 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>This is League</title>
+        <title>League of Learning</title>
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         
+
+
+
+
+
     </head>
     <body>
-        <div class="container">
-            <div class="content">
-                <style>
-                html, body {
-                    height: 100%;
-                }
-
-                body {
-                    margin: 0;
-                    padding: 0;
-                    width: 100%;
-                    display: table;
-                    font-weight: 100;
-                    font-family: 'Lato';
-                }
-
-                .container {
-                    text-align: center;
-                    display: table-cell;
-                    vertical-align: middle;
-                }
-
-                .content {
-                    text-align: center;
-                    display: inline-block;
-                }
-
-                .title {
-                    font-size: 96px;
-                }
-                </style>
-                <div class="title">League of Legends<br>More League...</div>
+        <div class="out">
+            <div class="in">
+                
             </div>
         </div>
     </body>
