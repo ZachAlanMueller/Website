@@ -14,6 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/games', function() {
+Route::get('/league', function() {
 	return view('league');
 });
