@@ -22,7 +22,7 @@
     <body>
         <div class="out">
             <div class="in">
-                
+                Empty Page
             </div>
         </div>
     </body>
