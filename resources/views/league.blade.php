@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    @include('headers')
+    @include('layouts.partials._headers')
   </head>
   <body>
-    @include('text')
+    @include('layouts.partials._text')
 
 
 
 
 
-    @include('jquery')
+    @include('layouts.partials._jquery')
   </body>
 </html>
