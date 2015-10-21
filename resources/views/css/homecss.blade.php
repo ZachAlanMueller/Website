@@ -81,7 +81,7 @@ html, #body {
   font-size: 1.2em;
   line-height: 40px;
   border-bottom: 1px solid #888;
-  background-color: url({{ URL::asset('images/transparentBackground.jpg'); }}); /*#022835;*/
+  background-color: url({{ URL::asset('images/transparentBackground.jpg') }}); /*#022835;*/
 }
  
 #nav a {
