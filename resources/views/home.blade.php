@@ -2,8 +2,8 @@
 <html>
 <head>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<link rel="stylesheet" href="css/home.css">
-<script src="js/home.js" type="text/javascript"></script>
+<link rel="stylesheet" href="../css/home.css">
+<script src="../js/home.js" type="text/javascript"></script>
 <!---
     
 -->
