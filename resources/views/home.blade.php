@@ -17,7 +17,7 @@
             <ul>
                 <li class="home"><a href="#">Home</a></li>
                 <li class="programs"><a href="#">Programs</a></li>
-                <li class="relaxation"><a href="#">Relaxation</a></li>
+                <li class="games"><a href="#">Games</a></li>
                 <li class="blog"><a href="#">Blog</a></li>
                 <li class="contact"><a href="#">Contact</a></li>
             </ul>
@@ -41,7 +41,6 @@
                 <li class="career"><a href="#">Career</a></li>
                 <li class="friendship"><a href="#">Friendship</a></li>
                 <li class="recreation"><a href="#">Recreation</a></li>
-                <li class="spiritual"><a href="#">Spiritual</a></li>
             </ul>
         </div>
     </header>
