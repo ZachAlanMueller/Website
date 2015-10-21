@@ -2,9 +2,13 @@
 <html>
 <head>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-@include('css.homecss')
-@include('js.homejs')
-<!---
+    <style>
+        @include('css.homecss')
+    </style>
+    <script>
+        @include('js.homejs')
+    </script>
+<!--
     
 -->
 </head>
