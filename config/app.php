@@ -140,7 +140,7 @@ return [
         /*
          * Application Service Providers...
          */
-        'Illuminate\Html\HtmlServiceProvider',
+        Collective\Html\HtmlServiceProvider::class,
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
         App\Providers\EventServiceProvider::class,
@@ -194,8 +194,8 @@ return [
         'URL'       => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
-        'HTML'      => 'Illuminate\Html\HtmlFacade',
-        'Form'      => 'Illuminate\Html\FormFacade',
+        'HTML'      => Illuminate\Html\HtmlFacade::class,
+        'Form'      => Illuminate\Html\FormFacade::class,
 
     ],
 
