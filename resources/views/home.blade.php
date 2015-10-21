@@ -45,9 +45,6 @@
             </ul>
         </div>
     </header>
-    <div class="image">
-        <img src="../img/me.jpg" alt="picture_of_me" height="400" weight="200"> </img>
-    </div>
     <p class="paragraph" id="psummary">
         Beginning 
     </p>
