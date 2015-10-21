@@ -13,7 +13,7 @@ html, #body {
   
   margin: 0;
   padding: 0;
-  background: url("../img/formeBackground.png");/*#26596A;*/ 
+  background: #26596A; 
   height: 100%;
 }
 
