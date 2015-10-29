@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('work');
 });
 Route::get('/league', function() {
 	return view('league');

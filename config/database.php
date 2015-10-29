@@ -52,6 +52,18 @@ return [
             'prefix'   => '',
         ],
 
+        'chowtime' => [
+            'driver'    => 'mysql',
+            'host'      => 'localhost',
+            'port'      => '3007'
+            'database'  => 'pls_devtest',
+            'username'  => 'zach',
+            'password'  => 'smartsnack15',
+            'charset'   => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix'    => '',
+        ],
+
         'mysql' => [
             'driver'    => 'mysql',
             'host'      => env('DB_HOST', 'localhost'),

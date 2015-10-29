@@ -14,14 +14,14 @@
 </head>
 <body id="body">
     <div id="nav">
-            <ul>
-                <li class="home"><a href="#">Home</a></li>
-                <li class="programs"><a href="#">Programs</a></li>
-                <li class="relaxation"><a href="#">Relaxation</a></li>
-                <li class="blog"><a href="#">Blog</a></li>
-                <li class="contact"><a href="#">Contact</a></li>
-            </ul>
-        </div>
+        <ul>
+            <li class="home"><a href="#">Home</a></li>
+            <li class="programs"><a href="#">Programs</a></li>
+            <li class="relaxation"><a href="#">Relaxation</a></li>
+            <li class="blog"><a href="#">Blog</a></li>
+            <li class="contact"><a href="#">Contact</a></li>
+        </ul>
+    </div>
     <title>Zach Alan Mueller</title>
     <h1 id="description">
         Zach Alan Mueller
@@ -45,24 +45,25 @@
             </ul>
         </div>
     </header>
-    <p class="paragraph" id="psummary">
-        Beginning 
-    </p>
-    <p class="paragraph" id="pfamily">
-        Family
-    </p>
-    <p class="paragraph" id="pcareer">
-        Career
-    </p>
-    <p class="paragraph" id="pfriendship">
-        Friendship
-    </p>
-    <p class="paragraph" id="precreation">
-        Recreation
-    </p>
-    <p class="paragraph" id="pspiritual">
-        Spiritual
-    </p>
-    
+    <div class="paragraph">    
+        <p id="psummary">
+            Beginning 
+        </p>
+        <p id="pfamily">
+            Family
+        </p>
+        <p id="pcareer">
+            Career
+        </p>
+        <p id="pfriendship">
+            Friendship
+        </p>
+        <p id="precreation">
+            Recreation
+        </p>
+        <p id="pspiritual">
+            Spiritual
+        </p>
+    </div>
 </body>
 </html>
