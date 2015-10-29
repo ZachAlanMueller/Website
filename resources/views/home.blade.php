@@ -14,6 +14,7 @@
 </head>
 <body id="body">
     <div id="nav">
+<<<<<<< HEAD
         <ul>
             <li class="home"><a href="#">Home</a></li>
             <li class="programs"><a href="#">Programs</a></li>
@@ -22,6 +23,16 @@
             <li class="contact"><a href="#">Contact</a></li>
         </ul>
     </div>
+=======
+            <ul>
+                <li class="home"><a href="#">Home</a></li>
+                <li class="programs"><a href="#">Programs</a></li>
+                <li class="games"><a href="#">Games</a></li>
+                <li class="blog"><a href="#">Blog</a></li>
+                <li class="contact"><a href="#">Contact</a></li>
+            </ul>
+        </div>
+>>>>>>> 5ed3cae7075eb66d9dbc51f7c6908ac2c16d65ff
     <title>Zach Alan Mueller</title>
     <h1 id="description">
         Zach Alan Mueller
@@ -41,7 +52,6 @@
                 <li class="career"><a href="#">Career</a></li>
                 <li class="friendship"><a href="#">Friendship</a></li>
                 <li class="recreation"><a href="#">Recreation</a></li>
-                <li class="spiritual"><a href="#">Spiritual</a></li>
             </ul>
         </div>
     </header>
