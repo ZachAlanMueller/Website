@@ -6,20 +6,8 @@
 <body>
 <div class="container">
   
-  @include('includes.navigation')  
-
-  <header class="row">
-    @include('includes.header')
-  </header>
-
-  <div id="main" class="row">
-    @yield('content')
-  </div>
-
-  <footer class="row">
-      @include('includes.footer')
-  </footer>
-
+  <button type="button" onclick="alert('Hello world!')">Click Me!</button>
+  
 </div>
 </body>
 </html>
