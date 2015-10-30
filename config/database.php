@@ -56,13 +56,15 @@ return [
             'driver'    => 'mysql',
             'host'      => 'localhost',
             'port'      => '3007',
-            'database'  => 'pls_devtest',
+            'database'  => 'pls_chowtime',
             'username'  => 'zach',
             'password'  => 'smartsnack15',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
         ],
+    // Incase I lose the command I'll put it below 
+    // ssh -NL 3307:127.0.0.1:3306 mysqlclient@vms1.parlevelvms.com
 
         'mysql' => [
             'driver'    => 'mysql',

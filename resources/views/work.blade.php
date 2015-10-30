@@ -1,13 +1,13 @@
 <!doctype html>
 <html>
-<head>
-    @include('includes.head')
-</head>
-<body>
-<div class="container">
-  
-  <button type="button" onclick="alert('Hello world!')">Click Me!</button>
-  
-</div>
-</body>
+  <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  </head>
+  <body>
+  <div class="container">
+    
+    <div id="results"> {{{$count}}} </div>
+    
+  </div>
+  </body>
 </html>

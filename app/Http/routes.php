@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('work');
-});
+Route::get('/', 'work_controller@check_routes');
 Route::get('/league', function() {
 	return view('league');
 });
