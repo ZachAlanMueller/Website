@@ -54,8 +54,7 @@ return [
 
         'chowtime' => [
             'driver'    => 'mysql',
-            'host'      => 'localhost',
-            'port'      => '3007',
+            'host'      => '127.0.0.1:3307',
             'database'  => 'pls_chowtime',
             'username'  => 'zach',
             'password'  => 'smartsnack15',
