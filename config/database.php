@@ -48,29 +48,16 @@ return [
 
         'sqlite' => [
             'driver'   => 'sqlite',
-            'database' => storage_path('database.sqlite'),
+            'database' => database_path('database.sqlite'),
             'prefix'   => '',
         ],
-
-        'chowtime' => [
-            'driver'    => 'mysql',
-            'host'      => '127.0.0.1:3307',
-            'database'  => 'pls_chowtime',
-            'username'  => 'zach',
-            'password'  => 'smartsnack15',
-            'charset'   => 'utf8',
-            'collation' => 'utf8_unicode_ci',
-            'prefix'    => '',
-        ],
-    // Incase I lose the command I'll put it below 
-    // ssh -NL 3307:127.0.0.1:3306 mysqlclient@vms1.parlevelvms.com
 
         'mysql' => [
             'driver'    => 'mysql',
             'host'      => env('DB_HOST', 'localhost'),
             'database'  => env('DB_DATABASE', 'forge'),
             'username'  => env('DB_USERNAME', 'forge'),
-            'password'  => env('DB_PASSWORD', 'OCKNvwsrXMp5qUQm3X6m'),
+            'password'  => env('DB_PASSWORD', ''),
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
@@ -80,9 +67,9 @@ return [
         'pgsql' => [
             'driver'   => 'pgsql',
             'host'     => env('DB_HOST', 'localhost'),
-            'database' => env('DB_DATABASE', 'forgedb'),
+            'database' => env('DB_DATABASE', 'forge'),
             'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', 'gNscfhaooEzoIaaiuSRO'),
+            'password' => env('DB_PASSWORD', ''),
             'charset'  => 'utf8',
             'prefix'   => '',
             'schema'   => 'public',
