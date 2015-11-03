@@ -7,9 +7,9 @@
   <div class="container">
     
     <div id="results"> 
-    	@if(Session::has('results'))
+    	@if($results)
 
-		    @foreach (Session::get('results') as $location) 
+		    @foreach ($results as $location) 
 
 		    {{ $location->name }} <br>
 
