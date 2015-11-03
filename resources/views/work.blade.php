@@ -6,7 +6,20 @@
   <body>
   <div class="container">
     
-    <div id="results"> {{{ $count }}} </div>
+    <div id="results"> 
+    	@if(Session::has('results'))
+
+		    @foreach (Session::get('results') as $location) 
+
+		    {{ $location->name }} <br>
+
+		    @endforeach
+
+		@endif
+
+
+
+     </div>
     
   </div>
   </body>

@@ -12,9 +12,8 @@ class work_controller extends Controller {
      */
     public function check_routes() {
         $results = \DB::connection('parlevel')->select('select * from locations');
-        var_dump($results);
-        die();
-        return \View::make('work', $results);
+        
+        return \View::make('work')->with('results', $results);
     }
 
 }
