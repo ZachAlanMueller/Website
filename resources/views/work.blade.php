@@ -9,9 +9,9 @@
     <div id="results"> 
     	@if($results)
 
-		    @foreach ($results as $location) 
+		    @foreach ($results as $machine) 
 
-		    {{ $location->name }} <br>
+		    {{ $machine->name }} <br>
 
 		    @endforeach
 		@else
