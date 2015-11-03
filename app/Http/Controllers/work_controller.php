@@ -13,7 +13,7 @@ class work_controller extends Controller {
     public function check_routes() {
         $results = \DB::connection('parlevel')->select('select count(*) as count from locations');
         
-        return \View::make('work', ['results' => $results]);
+        return \View::make('work')with('results', $results);
     }
 
 }
