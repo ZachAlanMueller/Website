@@ -11,7 +11,7 @@ class work_controller extends Controller {
      * @return Response
      */
     public function check_routes() {
-        $results = \DB::connection('chowtime')->select('select count(*) as count from locations');
+        $results = \DB::connection('parlevel')->database('pls_chowtime')->select('select count(*) as count from locations');
         var_dump($results);
         die();
         return \View::make('work', $results);
