@@ -6,7 +6,7 @@
   <body>
   <div class="container">
     
-    <div id="results"> {{{$count}}} </div>
+    <div id="results"> {{{$results}}} </div>
     
   </div>
   </body>
