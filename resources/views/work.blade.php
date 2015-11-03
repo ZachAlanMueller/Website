@@ -14,7 +14,9 @@
 		    {{ $location->name }} <br>
 
 		    @endforeach
-
+		@else
+			Bleh
+		
 		@endif
 
 
