@@ -12,7 +12,7 @@ class work_controller extends Controller {
      */
     public function check_routes() {
         $results = \DB::connection('chowtime')->select('select count(*) as count from locations');
-        return View::make('work.blade', $results);
+        return \View::make('work.blade', $results);
     }
 
 }
