@@ -25,7 +25,7 @@ group by table_schema;');
 
         $results = \DB::connection('parlevel')->select('select * from locations');
         
-        return \View::make('work')->with('results', $results);
+        return \View::make('work')->with('results', $customers);
     }
 
 }
