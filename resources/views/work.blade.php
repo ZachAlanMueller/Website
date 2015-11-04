@@ -11,7 +11,7 @@
 
 		    @foreach ($results as $machine) 
 
-		    {{ $machine->name }} <br>
+		    {{ $machine }} <br>
 
 		    @endforeach
 		@else
